@@ -1,0 +1,357 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    height:100%;
+    width:100%;
+    margin:0;
+    padding:0;
+    background-color: green;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.bucket header .nav-links ul li{
+    display:inline;
+    color:white;
+    margin-left:50px;
+}
+
+.bucket header .nav-linksb ul li{
+    display:inline;
+    color:white;
+    margin-left:50px;
+}
+
+.bucket header .nav-linksb{
+    margin-left:auto;
+}
+
+.bucket header .nav-linksb ul li .request{
+    background-color:#52bdb1;
+    height:60px;
+    border-radius:10px;
+    width:200px;
+    border:none;
+    color:white;
+    font-size:16px;
+}
+
+.bucket header .nav-linksb ul li .request:hover{
+    background-color:#4285f4;
+}
+
+.bucket header .nav-linksb ul li .login{
+    background-color:#8f53f7;
+    height:60px;
+    border-radius:10px;
+    width:100px;
+    border:none;
+    color:white;
+    font-size:16px;
+}
+
+.bucket header img{
+    height:50px;
+    width:150px;
+}
+
+.bucket{
+    background-color:rgb(65,77,217);
+    width:100%;
+    height:700px;
+    padding:0 50px;
+    border-bottom-left-radius:250px;
+}
+
+.bucket header{
+    display:flex;
+    height:100px;
+    padding-top:50px;
+}
+
+.bucket .layout h1{
+    font-size:80px;
+    font-weight:400;
+    color:white;
+    text-align:center;
+    margin-top:80px;
+}
+
+.bucket .layout p{
+    font-weight:100;
+    color:white;
+    text-align:center;
+    line-height:25px;
+    font-size:18px;
+}
+
+.bucketb{
+    height:600px;
+    background-color:white;
+    border-top-left-radius:50px;
+    border-bottom-left-radius:50px;
+    border-bottom-right-radius:50px;
+    width:60%;
+    margin: -200px auto 0 auto;
+    padding:40px;
+    box-shadow: 5px 30px 30px #f1f1f1;
+}
+
+.bucketb .access{
+    text-align:center;
+}
+
+.bucketb .privacy-request .privacy{
+    font-size:12px;
+    text-align:center;
+}
+
+.bucketb .privacy-request .privacy span{
+    color:#52bdb1;
+}
+
+.bucketb .privacy-request .requestb{
+    background-color:#52bdb1;
+    height:60px;
+    border-radius:10px;
+    width:200px;
+    border:none;
+    color:white;
+    font-size:16px;
+    text-align:center;
+    width:300px;
+    margin-left:250px;
+}
+
+.bucketb .logform form{
+   height:300px;
+   width:100%;
+   display:flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   padding:20px;
+}
+
+.bucketb .logform form input{
+   height:70px;
+   width: 48%;
+   border-radius:5px;
+   border:1px solid gray;
+}
+
+.bucketc{
+   display:flex;
+   height:390px;
+   width:80%;
+   padding:10px;
+   margin:200px auto 10px auto;
+   background-color:white;
+   box-shadow:10px 15px 10px 15px #f1f1f1;
+   border-radius:5px;
+}
+
+.bucketc img{
+    width: 330px;
+    height:430px;
+    margin-top:-50px;
+}
+
+.bucketc .payman{
+    padding:100px;
+}
+
+.bucketc .payman .payman1{
+    margin-top:-40px;
+}
+
+.bucketc .payman p{
+    margin-top:30px;
+}
+
+.bucketd{
+    margin-top:150px;
+    width:100%;
+    height:500px;
+    background-color:white;
+}
+
+.bucketd h1{
+    text-align:center;
+}
+
+.bucketd .symbol-word .symbol{
+    display:flex;
+    width:60%;
+    justify-content: space-between;
+    margin:auto;
+}
+
+.bucketd .symbol-word .word{
+    display:flex;
+    width:70%;
+    justify-content: space-between;
+    margin:auto;
+    text-align:center;
+}
+
+.bucketd .symbolb-wordb .symbolb{
+    display:flex;
+    width:60%;
+    justify-content: space-between;
+    margin:auto;
+}
+
+.bucketd .symbolb-wordb .wordb{
+    display:flex;
+    width:70%;
+    justify-content: space-between;
+    margin:auto;
+    text-align:center;
+}
+
+.bucketd .symbol-word{
+    margin-top:60px;
+}
+
+.bucketd .symbolb-wordb{
+    margin-top:60px
+}
+
+.buckete{
+    width:100%;
+    height:1000px;
+    background-color:#1b1a35;
+    border-top-right-radius:500px;
+    margin-top:250px;
+    
+}
+
+.buckete .ready-ra{
+    display:flex;
+    margin-bottom:200px;
+
+}
+
+.buckete .ready-ra .ready{
+    color:white;
+    margin-top:200px;
+    margin-left:100px;
+}
+
+.buckete .ready-ra .ready h1{
+    font-size:90px;
+    font-weight:400;
+}
+
+.buckete .ready-ra .ready p{
+    font-size:20px;
+    font-weight:300;
+}
+
+.buckete .ready-ra .ra button{
+    background-color:#52bdb1;
+    height:60px;
+    border-radius:10px;
+    width:200px;
+    border:none;
+    color:white;
+    font-size:16px;
+    text-align:center;
+    width:200px;
+    margin-top:320px;
+    margin-left:250px;
+}
+
+.buckete .footer .twentytwenty .white{
+    height:50px;
+    width:150px;
+}
+
+.buckete .footer .twentytwenty .copy{
+     height:15px;
+     width:10px;
+     color:#6d7f99;
+}
+
+.buckete .footer .twentytwenty p{
+    color:#6d7f99;
+}
+
+.buckete .footer .twentytwenty .love{
+    height:15px;
+    width:50px;
+    color:#52bdb1;
+}
+
+.buckete .footer{
+    display:flex;
+    margin-left:100px;
+}
+
+.buckete .footer .legal p{
+    color:#6d7f99;
+    line-height:40px;
+}
+
+.buckete .footer .legal h3{
+    color:white;
+    font-size:18px;
+}
+
+.buckete .footer .legal{
+    margin-left:150px;
+    margin-top:10px;
+    line-height:50px;
+}
+
+.buckete .footer .product p{
+    color:#6d7f99;
+    line-height:40px;
+}
+
+.buckete .footer .product h3{
+    color:white;
+    font-size:18px;
+}
+
+.buckete .footer .product{
+    margin-left:150px;
+    margin-top:10px;
+    line-height:50px;
+}
+
+.buckete .footer .getintouch p{
+    color:#6d7f99;
+    line-height:20px;
+    font-size:14px;
+    margin-top:30px;
+}
+
+.buckete .footer .getintouch h3{
+    color:white;
+    font-size:18px;
+}
+
+.buckete .footer .getintouch h5{
+    color:#3e9190;
+    font-size:20px;
+}
+
+.buckete .footer .getintouch{
+    margin-left:150px;
+    margin-top:10px;
+    line-height:50px;
+}
+
+.buckete .footer .getintouch .icon{
+    display:flex;
+    color:#6d7f99;
+}
+
+.buckete .footer .getintouch .icon .fab{
+    height:65px;
+    width:50px;
+}
+
