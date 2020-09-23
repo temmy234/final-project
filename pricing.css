@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    height:100%;
+    width:100%;
+    margin:0;
+    padding:0;
+    background-color: green;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.header{
+    background-color:#f8f9fa;
+    width:100%;
+    height:800px;
+    border-bottom-left-radius:250px;
+    padding:40px 40px;
+}
+
+.header .nav-links ul li a{
+    color:black;
+    text-decoration: none;
+}
+
+.header .nav-links ul li{
+    display:inline;
+    color:black;
+    margin-left:50px;
+}
+
+.header .nav-links{
+    margin-top:10px;
+}
+
+.header .navs{
+    display:flex;
+}
+
+.header .nav-linksb ul li{
+    display:inline;
+    color:black; 
+}
+
+.header .nav-linksb{
+    margin-left:auto;
+}
+
+.header .nav-linksb ul li .request{
+    background-color:#52bdb1;
+    height:60px;
+    border-radius:10px;
+    width:200px;
+    border:none;
+    color:white;
+    font-size:16px;
+}
+
+.header .nav-linksb ul li .request:hover{
+    background-color:#4285f4;
+}
+
+.header .nav-linksb ul li .login{
+    background-color:#9363f6;
+    height:60px;
+    border-radius:10px;
+    width:100px;
+    border:none;
+    color:white;
+    font-size:16px;
+}
+
+.header .navs .logoblue a img{
+    height:50px;
+    width:150px;
+}
+
+.header .layout h1{
+    font-size:90px;
+    font-weight:400;
+    color:black;
+    text-align:center;
+    margin-top:50px;
+}
+
+.header .layout p{
+    font-weight:100;
+    color:#8c929f;
+    text-align:center;
+    line-height:25px;
+    font-size:18px;
+}
+
+.header .layout select{
+    display:flex;
+    justify-content: center;
+}
+
+.section .standard-plan{
+    background-color:rgb(65,77,217);
+    height:700px;
+    width:35%;
+    margin:-200px 0px 0px auto;
+    border-radius:10px;
+    padding:70px;
+}
+
+.section{
+    width:100%;
+    display:flex;
+    margin:0;
+    padding:0;
+}
+
+.section .standard-plan img{
+    height:50px;
+    width:40%;
+}
+
+.section .standard-plan .marked-list ul li{
+    margin-bottom:30px;
+    color:white;
+    font-weight:100;
+}
+
+.section .standard-plan h2{
+    margin-bottom:30px;
+    color:white;
+    font-size:52px;
+    font-weight:300;
+}
+
+.section .all-in-one{
+    background-color:red;
+    height:650px;
+    width:35%;
+    margin:-170px auto 0px 0px;
+    padding:50px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
